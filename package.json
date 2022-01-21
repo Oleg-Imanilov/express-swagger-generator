@@ -1,12 +1,12 @@
 {
-  "name": "express-swagger-generator",
-  "version": "1.0.4",
+  "name": "express-swagger-generator-fix",
+  "version": "1.1.17",
   "description": "Generates swagger doc & ui based on express existing routes.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgroot/express-swagger-generator.git"
+    "url": "https://github.com/Oleg-Imanilov/express-swagger-generator.git"
   },
   "keywords": [
     "express",
@@ -22,20 +22,13 @@
   },
   "homepage": "https://github.com/pgroot/express-swagger-generator",
   "dependencies": {
-    "doctrine": "^2.0.0",
-    "doctrine-file": "^1.0.2",
-    "express-swaggerize-ui": "^1.0.0",
-    "glob": "^7.0.3",
+    "doctrine": "^3.0.0",
+    "doctrine-file": "^2.0.1",
+    "express-swaggerize-ui": "^1.1.0",
+    "glob": "^7.2.0",
+    "openapi-types": "^10.0.0",
     "recursive-iterator": "^2.0.3",
-    "swagger-parser": "^3.4.0",
-    "swagger-ui-express": "^2.0.8"
+    "swagger-parser": "^10.0.3"
   },
-  "devDependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "mocha": "^3.2.0",
-    "mocha-jscs": "^5.0.0",
-    "mocha-jshint": "^2.3.1",
-    "supertest": "^2.0.1"
-  }
+  "devDependencies": {}
 }

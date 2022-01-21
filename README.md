@@ -1,9 +1,11 @@
 ### Express Swagger Generator
 
+> This is `express-swagger-generator@1.1.17` with fixed dependencies
+
 #### Installation
 
 ```
-npm i express-swagger-generator --save-dev
+npm i express-swagger-generator-fix --save-dev
 ```
 
 #### Usage
@@ -11,7 +13,7 @@ npm i express-swagger-generator --save-dev
 ```
 const express = require('express');
 const app = express();
-const expressSwagger = require('express-swagger-generator')(app);
+const expressSwagger = require('express-swagger-generator-fix')(app);
 
 let options = {
     swaggerDefinition: {
